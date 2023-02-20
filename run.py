@@ -2,7 +2,7 @@ import argparse
 
 
 def setup_argparse():
-    argparser = argparse.ArgumentParser(description='Estimate wear time from wildcam data')
+    argparser = argparse.ArgumentParser(description='Description of project and program CLI')
 
     argparser.add_argument('required_arg',
                            type=str,
